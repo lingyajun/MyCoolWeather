@@ -1,0 +1,19 @@
+<litepal>
+    <dbname value="cool_weather"/>
+    <version value="5"/>
+    <list>
+        <mapping class="com.bethel.mycoolweather.db.City"/>
+        <mapping class="com.bethel.mycoolweather.db.County"/>
+        <mapping class="com.bethel.mycoolweather.db.Province"/>
+        <mapping class="com.bethel.mycoolweather.json.WeatherNowBean"/>
+        <mapping class="com.bethel.mycoolweather.json.AqiNowBean"/>
+        <mapping class="com.bethel.mycoolweather.json.ForecastBean"/>
+        <mapping class="com.bethel.mycoolweather.json.SuggestionBean"/>
+        <mapping class="com.bethel.mycoolweather.json.WeatherNow"/>
+        <mapping class="com.bethel.mycoolweather.json.AqiNow"/>
+        <mapping class="com.bethel.mycoolweather.json.AqiStation"/>
+        <mapping class="com.bethel.mycoolweather.json.Forecast"/>
+        <mapping class="com.bethel.mycoolweather.json.Suggestion"/>
+        <mapping class="com.bethel.mycoolweather.db.ResponseCacheDB"/>
+    </list>
+</litepal>
