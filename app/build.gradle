@@ -11,33 +11,31 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        flavorDimensions "versionCode"
+//        flavorDimensions "versionCode"
     }
-    signingConfigs{
-        config {
-            storeFile file(KEY_PATH)
-            storePassword KEY_PASS
-            keyAlias ALIAS_NAME
-            keyPassword ALIAS_PASS
-        }
-    }
+//    signingConfigs{
+//        config {
+//            storeFile file(KEY_PATH)
+//            storePassword KEY_PASS
+//            keyAlias ALIAS_NAME
+//            keyPassword ALIAS_PASS
+//        }
+//    }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
+//            signingConfig signingConfigs.config
         }
     }
-    productFlavors {
-        qihoo {
-            applicationId "com.bethel.mycoolweather.qihoo"
-//            applicationName "麦酷天气360"
-        }
-        tencent {
-            applicationId "com.bethel.mycoolweather.tencent"
-//            applicationName "麦酷天气企鹅版"
-        }
-    }
+//    productFlavors {
+//        qihoo {
+//            applicationId "com.bethel.mycoolweather.qihoo"
+//        }
+//        tencent {
+//            applicationId "com.bethel.mycoolweather.tencent"
+//        }
+//    }
     compileOptions {
         sourceCompatibility = 1.7
     }

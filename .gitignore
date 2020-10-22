@@ -90,3 +90,6 @@ lint/tmp/
 # my file
 api.md
 *.properties
+release/
+.idea/
+._LICENSE
